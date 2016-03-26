@@ -29,7 +29,9 @@ a {
 }
 
 
-
+#link-panel  {
+	float: right;
+}
 #link-panel li {
 	float: left;
 	padding: 5px 10px;
