@@ -1,2 +1,5 @@
-# alogy.github.io
-Alogy的个人博客.
+# Blog of Wenli Zhang Xingzhang Lin
+
+Blog: http://linxingzhang.com/blog.
+
+Topics: Web Front-End Developing and More.
