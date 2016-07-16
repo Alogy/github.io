@@ -1,4 +1,4 @@
-# Blog of Wenli Zhang Xingzhang Lin
+# Blog of Xingzhang Lin
 
 Blog: http://linxingzhang.com/blog.
 
