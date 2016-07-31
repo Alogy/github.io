@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  font: 20px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+body,dl,dd,p,h1,h2,h3,h4,h5,fieldset,form {
+  margin: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol,ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+/* ============================= */
+/* = HTML5 display definitions = */
+/* ============================= */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+  display: block;
+}
+
+audio,canvas,progress,video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+
+
+
+
+/* ========= */
+/* = Links = */
+/* ========= */
+
+
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 100%;
+}
+
+a:active,a:hover {
+  outline: 0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+
+
+
+
+
+/* ======================== */
+/* = Text-level semantics = */
+/* ======================== */
+ 
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+dfn {
+  font-style: italic;
+}
+
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+
+
+/* ==================== */
+/* = Embedded content = */
+/* ==================== */
+
+body,img,fieldset {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+
+/* ==================== */
+/* = Grouping content = */
+/* ==================== */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,kbd,pre,samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+
+/* ========= */
+/* = Forms = */
+/* ========= */
+
+button,input,optgroup,select,textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,select {
+  text-transform: none;
+}
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+fieldset,input {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ========== */
+/* = Tables = */
+/* ========== */
+
+table {
+  border-collapse: collapse;
+  border-apacing: 0;
+}
+
+td,th {
+  padding: 0;
+}

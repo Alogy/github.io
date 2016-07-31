@@ -1,0 +1,75 @@
+
+@import 'variables.scss';
+
+@import 'minxins.scss';
+
+@import 'utils.scss';
+
+html,body {
+    width: $w25 * 4;
+    height: $w25 * 4; 
+    padding: $pxZero;
+    margin: $pxZero;
+}
+
+body {
+    background: $rootColor;
+    color: $while;
+}
+
+
+#link-panel {
+    @include floatRight;
+    padding: $defaultPadding/2 $defaultPadding $pxZero $pxZero;
+    li {
+        @include floatLeft;
+        padding: $defaultPadding/4 $defaultPadding/2;
+        a {
+            color: $while;
+            border: none;
+        } 
+        &:hover {
+            border:{
+                bottom: {
+                    width: $defaultPadding/10;
+                    style: solid;
+                    color: $colorF3; 
+                }
+            }
+        }
+    }
+}
+
+
+.logo {
+    @include center(450px, 440px);
+    #alogy-svg {
+        width: $defaultPadding *  22.5;
+        height: $defaultPadding * 22;
+    }
+}
+
+
+
+@media screen and (min-width: 479px) {
+    #link-panel {
+       @include navHideShow(none);
+    }
+//  .logo {
+//      @include center(306px, 300px);
+//      width: 306px;
+//      height: 300px;
+//  }
+}
+
+@media screen and (min-width: 639px) {
+    #link-panel {
+        @include navHideShow(block);
+    }
+//  .logo {
+//      @include center(450px, 440px);
+//      width: 450px;
+//      height: 440px;
+//  }
+}
+

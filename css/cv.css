@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * 鍏ㄥ眬鍙橀噺
+ */
+/**
+ * 娣峰悎鏍峰紡 
+ */
+/**
+ * 宸ュ叿
+ */
+body {
+  background: #00F7F7;
+  color: #fff;
+}
+
+#fullpage .page0 {
+  width: 100%;
+  text-align: center;
+}
+#fullpage .page0 .head-pic {
+  width: 240px;
+  height: 240px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #e0fffe;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: url(../img/head.png) no-repeat center center;
+}
+#fullpage .page0 section {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#fullpage .page0 section .title-color {
+  font-size: 70px;
+  color: #10a6a6;
+}
+#fullpage .page0 section .name-t {
+  font-size: 70px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -105px;
+  margin-top: -52.5px;
+  margin-top: -56px;
+}
+#fullpage .page0 h3 {
+  line-height: 60px;
+  font-size: 36px;
+}
+#fullpage .page0 p {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=cv.css.map */

@@ -1,0 +1,49 @@
+
+
+/**
+ * 工具
+ */
+
+@mixin center( $w, $h ) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -$w / 2;
+    margin-top: -$h / 2;
+}
+
+
+
+@mixin navHideShow ( $sh ) {
+    li:nth-child(3) {
+       display: $sh;                 
+    }
+    li:nth-child(4) {
+        display: $sh;
+    }
+    li:nth-child(5) {
+        display: $sh;
+    }
+}
+
+
+@mixin TitleFontSize() {
+    font-size: $defaultPadding/2 * 7;
+}
+
+@mixin setTitle () {
+    
+}
+
+
+@mixin positionTL ( $pos: absolute, $t: 0, $l: 0 ) {
+    position: $pos;
+    top: $t;
+    left: $l;
+}
+
+
+@mixin posTL ( $t: 0, $l: 0 ) {
+    top: $t;
+    left: $l;
+}

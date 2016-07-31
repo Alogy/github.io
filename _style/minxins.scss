@@ -1,0 +1,30 @@
+
+/**
+ * 混合样式 
+ */
+
+
+@mixin tc {
+    width: $w25 * 4;
+    text-align: center;
+}
+
+@mixin dn {
+    display: none;
+}
+
+@mixin db {
+    display: block;
+}
+
+@mixin floatLeft {
+	float: left;
+}
+
+@mixin floatRight {
+	float: right; 
+}
+
+@mixin marginZero {
+	margin: 0 auto;
+}

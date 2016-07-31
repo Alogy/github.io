@@ -1,0 +1,55 @@
+
+// resume
+
+
+@import 'variables.scss';
+
+@import 'minxins.scss';
+
+@import 'utils.scss';
+
+
+body {
+    background: $rootColor;
+    color: $while;
+}
+
+
+#fullpage {
+    .page0 {
+        @include tc;
+        .head-pic {
+            width: $defaultPadding * 12;
+            height: $defaultPadding * 12; 
+            border: {
+                width: $defaultPadding/4 * 3; 
+                style: solid;
+                color: $colors; 
+            }
+            @include marginZero;
+            border-radius: $w25 * 2;
+            background: url(../img/head.png) no-repeat center center;
+        }
+        section {
+            @include positionTL(relative);
+            .title-color {
+                @include TitleFontSize();
+                color: $Titlecolors;   
+            }
+            .name-t {
+                @include TitleFontSize();
+                @include center( 210px, 105px );
+                margin-top: -56px;
+            }
+        }
+        h3 {
+            line-height: $defaultPadding/2 *6;
+            font-size: $samllFontSize * 3;  
+        }
+        p {
+            font-size: $defaultPadding/2 * 3;
+        }
+    }
+}
+
+

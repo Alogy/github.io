@@ -1,5 +1,2 @@
-# Blog of Xingzhang Lin
-
-Blog: http://linxingzhang.com/blog.
-
-Topics: Web Front-End Developing and More.
+# alogy.github.io
+Alogy的个人博客.
