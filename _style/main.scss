@@ -17,6 +17,9 @@ body {
     color: $while;
 }
 
+* {
+    box-sizing: border-box
+}
 
 #link-panel {
     @include floatRight;
@@ -51,7 +54,8 @@ body {
 
 
 
-@media screen and (min-width: 479px) {
+//@media screen and (min-width: 479px) {
+@media screen and (min-width: 385px) {
     #link-panel {
        @include navHideShow(none);
     }

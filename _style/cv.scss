@@ -8,12 +8,32 @@
 
 @import 'utils.scss';
 
-
 body {
     background: $rootColor;
     color: $while;
 }
 
+a {
+    border: none;
+}
+
+section {
+    @include positionTL(relative);
+    .name-t {
+        text-shadow: 1px 2px #10a6a6;
+        @include TitleFontSize();
+        text-align: center;
+    }
+}
+
+.section {
+    padding: $defaultPadding /2 * 5;
+    transition: .5s;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: $Titlecolors;
+}
 
 #fullpage {
     .page0 {
@@ -30,18 +50,6 @@ body {
             border-radius: $w25 * 2;
             background: url(../img/head.png) no-repeat center center;
         }
-        section {
-            @include positionTL(relative);
-            .title-color {
-                @include TitleFontSize();
-                color: $Titlecolors;   
-            }
-            .name-t {
-                @include TitleFontSize();
-                @include center( 210px, 105px );
-                margin-top: -56px;
-            }
-        }
         h3 {
             line-height: $defaultPadding/2 *6;
             font-size: $samllFontSize * 3;  
@@ -50,6 +58,107 @@ body {
             font-size: $defaultPadding/2 * 3;
         }
     }
+    .page1  {
+        @include tc;
+        .project {
+            li {
+                width: $w25 * 2;
+                @include floatLeft;
+                text-align: left;
+                margin: $defaultPadding/2 0;
+                box-sizing: border-box;
+                .project-img {
+                    background: $Titlecolors;
+                    width: $defaultPadding* 6 + 4;
+                    height: $defaultPadding* 6 + 4;
+                    border-radius: $w25 * 2;
+                    @include textLine();
+                    font-size: $defaultPadding * 1.5;
+                }
+                .wap {
+                    font-size: $defaultPadding * 5;
+                }
+                div {
+                    @include floatLeft;
+                }
+                .content {
+                    width: $defaultPadding * 12;
+                    margin-top: $defaultPadding;
+                    padding-left: $defaultPadding;
+                    box-sizing: border-box; 
+                    h3 {
+                        line-height: $defaultPadding /2 * 3;
+                        a {
+                            font-size: $bigFontSize;
+                        }
+                    }
+                    p {
+                        font-size: $defaultPadding - 2;
+                    }
+                } 
+            }
+            li:last-child {
+                .content {
+                    p {
+                        line-height: $defaultPadding * 2;
+                    }
+                }
+            }
+        }
+    }   
+    .page2  {
+        @include tc;
+        .pp-tableCell {
+           .tag-panel {
+               margin: $defaultPadding/5 *3 auto;
+               div {
+                    display: inline-block;
+                    background: $Titlecolors; 
+                    border-radius: $defaultPadding/5;
+                    padding: $defaultPadding / 5 $defaultPadding/2;                  
+               }
+           } 
+        }
+    }   
+    .page3  {
+        @include tc;
+        .experience {
+            div {
+                margin: $defaultPadding 0;
+                span {
+                    color: $Titlecolors;
+                }
+            }
+        }
+    }   
+    .page4  {
+        @include tc;
+        #contact-panel {
+            margin-top: $defaultPadding;
+            a {
+               display: inline-block;
+               width:  $defalutFontSize * 2.8; 
+               height:  $defalutFontSize * 2.8;
+               background-color: $Titlecolors; 
+               border-radius: $w25 * 2;
+               background-image: url('../img/gs.png'); 
+                &:nth-of-type(1) {
+                    background-position: -$defalutFontSize * 2.8 0px;
+                }
+                &:nth-of-type(2) {
+                    background-position: -$defalutFontSize * 2.8 * 2 0px;
+                }
+                &:nth-of-type(3) {
+                    background-position: -$defalutFontSize * 2.8 * 3 0px;
+                }
+                &:nth-of-type(4) {
+                    background-position: -$defalutFontSize * 2.8 * 4 0px;
+                }
+                &:nth-of-type(5) {
+                    background-position: -$defalutFontSize * 2.8 * 5 0px;
+                }
+            }
+        }
+    }   
 }
-
 

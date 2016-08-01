@@ -12,65 +12,49 @@ html, body {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
   background: #00F7F7;
-  color: #fff;
-}
+  color: #fff; }
 
 #link-panel {
   float: right;
-  padding: 10px 20px 0 0;
-}
-#link-panel li {
-  float: left;
-  padding: 5px 10px;
-}
-#link-panel li a {
-  color: #fff;
-  border: none;
-}
-#link-panel li:hover {
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #f3f3f3;
-}
+  padding: 10px 20px 0 0; }
+  #link-panel li {
+    float: left;
+    padding: 5px 10px; }
+    #link-panel li a {
+      color: #fff;
+      border: none; }
+    #link-panel li:hover {
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #f3f3f3; }
 
 .logo {
   position: absolute;
   left: 50%;
   top: 50%;
   margin-left: -225px;
-  margin-top: -220px;
-}
-.logo #alogy-svg {
-  width: 450px;
-  height: 440px;
-}
+  margin-top: -220px; }
+  .logo #alogy-svg {
+    width: 450px;
+    height: 440px; }
 
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 385px) {
   #link-panel li:nth-child(3) {
-    display: none;
-  }
+    display: none; }
   #link-panel li:nth-child(4) {
-    display: none;
-  }
+    display: none; }
   #link-panel li:nth-child(5) {
-    display: none;
-  }
-}
+    display: none; } }
 @media screen and (min-width: 639px) {
   #link-panel li:nth-child(3) {
-    display: block;
-  }
+    display: block; }
   #link-panel li:nth-child(4) {
-    display: block;
-  }
+    display: block; }
   #link-panel li:nth-child(5) {
-    display: block;
-  }
-}
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -47,3 +47,10 @@
     top: $t;
     left: $l;
 }
+
+
+@mixin textLine () {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

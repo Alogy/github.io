@@ -13,6 +13,30 @@ body {
   color: #fff;
 }
 
+a {
+  border: none;
+}
+
+section {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+section .name-t {
+  text-shadow: 1px 2px #10a6a6;
+  font-size: 70px;
+  text-align: center;
+}
+
+.section {
+  padding: 50px;
+  transition: .5s;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #10a6a6;
+}
+
 #fullpage .page0 {
   width: 100%;
   text-align: center;
@@ -27,30 +51,110 @@ body {
   border-radius: 50%;
   background: url(../img/head.png) no-repeat center center;
 }
-#fullpage .page0 section {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-#fullpage .page0 section .title-color {
-  font-size: 70px;
-  color: #10a6a6;
-}
-#fullpage .page0 section .name-t {
-  font-size: 70px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -105px;
-  margin-top: -52.5px;
-  margin-top: -56px;
-}
 #fullpage .page0 h3 {
   line-height: 60px;
   font-size: 36px;
 }
 #fullpage .page0 p {
   font-size: 30px;
+}
+#fullpage .page1 {
+  width: 100%;
+  text-align: center;
+}
+#fullpage .page1 .project li {
+  width: 50%;
+  float: left;
+  text-align: left;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+#fullpage .page1 .project li .project-img {
+  background: #10a6a6;
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+#fullpage .page1 .project li .wap {
+  font-size: 100px;
+}
+#fullpage .page1 .project li div {
+  float: left;
+}
+#fullpage .page1 .project li .content {
+  width: 240px;
+  margin-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#fullpage .page1 .project li .content h3 {
+  line-height: 30px;
+}
+#fullpage .page1 .project li .content h3 a {
+  font-size: 24px;
+}
+#fullpage .page1 .project li .content p {
+  font-size: 18px;
+}
+#fullpage .page1 .project li:last-child .content p {
+  line-height: 40px;
+}
+#fullpage .page2 {
+  width: 100%;
+  text-align: center;
+}
+#fullpage .page2 .pp-tableCell .tag-panel {
+  margin: 12px auto;
+}
+#fullpage .page2 .pp-tableCell .tag-panel div {
+  display: inline-block;
+  background: #10a6a6;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+#fullpage .page3 {
+  width: 100%;
+  text-align: center;
+}
+#fullpage .page3 .experience div {
+  margin: 20px 0;
+}
+#fullpage .page3 .experience div span {
+  color: #10a6a6;
+}
+#fullpage .page4 {
+  width: 100%;
+  text-align: center;
+}
+#fullpage .page4 #contact-panel {
+  margin-top: 20px;
+}
+#fullpage .page4 #contact-panel a {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-color: #10a6a6;
+  border-radius: 50%;
+  background-image: url("../img/gs.png");
+}
+#fullpage .page4 #contact-panel a:nth-of-type(1) {
+  background-position: -56px 0px;
+}
+#fullpage .page4 #contact-panel a:nth-of-type(2) {
+  background-position: -112px 0px;
+}
+#fullpage .page4 #contact-panel a:nth-of-type(3) {
+  background-position: -168px 0px;
+}
+#fullpage .page4 #contact-panel a:nth-of-type(4) {
+  background-position: -224px 0px;
+}
+#fullpage .page4 #contact-panel a:nth-of-type(5) {
+  background-position: -280px 0px;
 }
 
 /*# sourceMappingURL=cv.css.map */

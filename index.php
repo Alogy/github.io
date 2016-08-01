@@ -20,7 +20,7 @@
 		<ul id="link-panel">
 
 			<li>
-				<a href="/cv/cn.html"  target="_blank">Resume</a>
+				<a href="/cv"  target="_blank">Resume</a>
 			</li>
 			<li>
 				<a href="/blog" target="_blank">Bolg</a>
