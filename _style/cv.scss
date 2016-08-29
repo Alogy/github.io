@@ -1,3 +1,4 @@
+﻿@charset "UTF-8";
 
 // resume
 
@@ -20,7 +21,7 @@ a {
 section {
     @include positionTL(relative);
     .name-t {
-        text-shadow: 1px 2px #10a6a6;
+        text-shadow: 1px 2px #034f84;
         @include TitleFontSize();
         text-align: center;
     }
@@ -42,7 +43,7 @@ section {
             width: $defaultPadding * 12;
             height: $defaultPadding * 12; 
             border: {
-                width: $defaultPadding/4 * 3; 
+                width: $defaultPadding/2 + 2; 
                 style: solid;
                 color: $colors; 
             }

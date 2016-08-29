@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /**
- * 鍏ㄥ眬鍙橀噺
+ * 全局变量
  */
 /**
- * 娣峰悎鏍峰紡 
+ * 混合样式 
  */
 /**
- * 宸ュ叿
+ * 工具
  */
 body {
-  background: #00F7F7;
+  background: #91a8d0;
   color: #fff;
 }
 
@@ -23,7 +23,7 @@ section {
   left: 0;
 }
 section .name-t {
-  text-shadow: 1px 2px #10a6a6;
+  text-shadow: 1px 2px #034f84;
   font-size: 70px;
   text-align: center;
 }
@@ -34,7 +34,7 @@ section .name-t {
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
-  background: #10a6a6;
+  background: #5B7BBB;
 }
 
 #fullpage .page0 {
@@ -44,9 +44,9 @@ section .name-t {
 #fullpage .page0 .head-pic {
   width: 240px;
   height: 240px;
-  border-width: 15px;
+  border-width: 12px;
   border-style: solid;
-  border-color: #e0fffe;
+  border-color: #ecfffb;
   margin: 0 auto;
   border-radius: 50%;
   background: url(../img/head.png) no-repeat center center;
@@ -70,7 +70,7 @@ section .name-t {
   box-sizing: border-box;
 }
 #fullpage .page1 .project li .project-img {
-  background: #10a6a6;
+  background: #5B7BBB;
   width: 124px;
   height: 124px;
   border-radius: 50%;
@@ -112,7 +112,7 @@ section .name-t {
 }
 #fullpage .page2 .pp-tableCell .tag-panel div {
   display: inline-block;
-  background: #10a6a6;
+  background: #5B7BBB;
   border-radius: 4px;
   padding: 4px 10px;
 }
@@ -124,7 +124,7 @@ section .name-t {
   margin: 20px 0;
 }
 #fullpage .page3 .experience div span {
-  color: #10a6a6;
+  color: #5B7BBB;
 }
 #fullpage .page4 {
   width: 100%;
@@ -137,7 +137,7 @@ section .name-t {
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-color: #10a6a6;
+  background-color: #5B7BBB;
   border-radius: 50%;
   background-image: url("../img/gs.png");
 }

@@ -5,7 +5,8 @@
 
 $('#fullpage').fullpage({
 	
-	sectionsColor: ['#00F7F7','#04f0f0','#00F7F7','#04f0f0','#00F7F7'],
+//	sectionsColor: ['#91a8d0','#04f0f0','#91a8d0','#04f0f0','#91a8d0'],
+	sectionsColor: ['#91a8d0','#8ca0c8','#91a8d0','#8ca0c8','#91a8d0'],
 	
 	anchors: ['firstPage','secondPage','thirdPage','fourthPage','fivePage'],
 	
